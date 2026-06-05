@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="Academic homepage for Han Li, a machine learning researcher at Shopify."
+    >
+    <title>Han Li</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="header-inner">
+        <nav class="site-nav" aria-label="Primary navigation">
+          <a href="#updates">Updates</a>
+          <a href="#publications">Publications</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="top" class="page">
+      <section class="profile" aria-labelledby="profile-title">
+        <aside class="profile-side" aria-label="Profile details">
+          <img src="assets/profile-placeholder.svg?v=2" alt="Portrait placeholder for Han Li">
+          <dl>
+            <div>
+              <dt>Profile</dt>
+              <dd class="profile-links">
+                <a
+                  class="icon-link"
+                  href="https://scholar.google.com/citations?user=44_HNjEAAAAJ&amp;hl=en"
+                  aria-label="Google Scholar"
+                  title="Google Scholar"
+                >
+                  <svg class="icon-stroke" aria-hidden="true" viewBox="0 0 24 24">
+                    <path d="M12 3 2 8l10 5 10-5-10-5Z"></path>
+                    <path d="M6 11v5c0 1.3 2.7 3 6 3s6-1.7 6-3v-5"></path>
+                    <path d="M22 8v7"></path>
+                  </svg>
+                </a>
+                <a
+                  class="icon-link"
+                  href="https://www.linkedin.com/in/han-li-8a977977"
+                  aria-label="LinkedIn"
+                  title="LinkedIn"
+                >
+                  <svg class="icon-fill" aria-hidden="true" viewBox="0 0 24 24">
+                    <path d="M6.9 20H3.2V8.5h3.7V20ZM5.1 6.9A2.1 2.1 0 1 1 5.1 2.7a2.1 2.1 0 0 1 0 4.2ZM20.8 20h-3.7v-5.6c0-1.3 0-3-1.8-3s-2.1 1.4-2.1 2.9V20H9.5V8.5h3.5v1.6h.1c.5-.9 1.7-1.8 3.4-1.8 3.7 0 4.3 2.4 4.3 5.5V20Z"></path>
+                  </svg>
+                </a>
+              </dd>
+            </div>
+          </dl>
+        </aside>
+
+        <div class="profile-text">
+          <h1 id="profile-title">Han Li</h1>
+          <p class="role">Senior Staff Machine Learning Researcher, Shopify</p>
+          <p>
+            I am a machine learning researcher at Shopify. My work focuses on
+            <strong>agentic foundation models, vision-language modeling, and
+            user simulation for AI agents</strong>. Before joining Shopify, I
+            was an Applied Scientist at Amazon Stores Foundational AI, where I
+            led efforts in large language model pretraining, as well as
+            vision-language model pretraining and post-training.
+          </p>
+          <p>
+            I obtained my Ph.D. in Computer Sciences from the University of
+            Wisconsin-Madison, advised by Prof.
+            <a href="https://pages.cs.wisc.edu/~anhai/">AnHai Doan</a>, and
+            received my bachelor's degree in Computer Science from Tsinghua
+            University.
+          </p>
+        </div>
+      </section>
+
+      <section id="updates" class="section">
+        <h2>Updates</h2>
+        <ul class="updates-list">
+          <li>
+            <time datetime="2026-06">June 2026</time>
+            <span>
+              <span class="update-badge">[NEW]</span>
+              <a href="https://arxiv.org/abs/2605.16116">ShopGym</a> accepted
+              to the ICML 2026 RLxF Workshop.
+            </span>
+          </li>
+          <li>
+            <time datetime="2026-06">June 2026</time>
+            <span>
+              <span class="update-badge">[NEW]</span>
+              We open-sourced
+              <a href="https://github.com/agentic-foundation-modeling-research/shop-gym">ShopGym</a>,
+              an integrated framework for realistic simulation and scalable
+              benchmarking of e-commerce web agents. ShopGym provides
+              self-contained sandbox shops and grounded evaluation tasks,
+              making agent evaluation more reproducible, inspectable, and
+              scalable.
+            </span>
+          </li>
+          <li>
+            <time datetime="2026-04">April 2026</time>
+            <span>
+              Published an engineering deep dive on
+              <a href="https://shopify.engineering/fine-tuning-agent-shopify-flow">fine-tuning a tool-calling agent</a>
+              that converts plain-English merchant requests into executable
+              Shopify Flow automations.
+            </span>
+          </li>
+          <li>
+            <time datetime="2026-04">April 2026</time>
+            <span>
+              <a href="https://arxiv.org/abs/2510.18731">One paper</a> was
+              accepted to ACL 2026.
+            </span>
+          </li>
+          <li>
+            <time datetime="2026-02">February 2026</time>
+            <span>
+              Published an engineering deep dive on
+              <a href="https://shopify.engineering/simgym">SimGym</a>, a
+              synthetic-shopper platform for running realistic storefront A/B
+              tests at scale before touching live traffic.
+            </span>
+          </li>
+        </ul>
+      </section>
+
+      <section id="publications" class="section">
+        <h2>Selected Publications</h2>
+        <ol class="publication-list">
+          <li>
+            <p class="pub-title">
+              <a href="https://arxiv.org/abs/2605.19219">SimGym: A Framework for A/B Test Simulation in E-Commerce with Traffic-Grounded VLM Agents</a>
+            </p>
+            <p class="pub-meta">arXiv, 2026</p>
+          </li>
+          <li>
+            <p class="pub-title">
+              <a href="https://arxiv.org/abs/2605.14205">SimPersona: Learning Discrete Buyer Personas from Raw Clickstreams for Grounded E-Commerce Agents</a>
+            </p>
+            <p class="pub-meta">arXiv, 2026</p>
+          </li>
+          <li>
+            <p class="pub-title">
+              <a href="https://arxiv.org/abs/2605.16116">ShopGym: An Integrated Framework for Realistic Simulation and Scalable Benchmarking of E-Commerce Web Agents</a>
+            </p>
+            <p class="pub-meta">ICML RLxF, 2026</p>
+          </li>
+          <li>
+            <p class="pub-title">
+              <a href="https://arxiv.org/abs/2510.18731">Mitigating Lost in Multi-turn Conversation via Curriculum RL with Verifiable Accuracy and Abstention Rewards</a>
+            </p>
+            <p class="pub-meta">ACL, 2026</p>
+          </li>
+          <li>
+            <p class="pub-title">
+              <a href="https://aclanthology.org/2025.naacl-long.439/">LongLeader: A Comprehensive Leaderboard for Large Language Models in Long-context Scenarios</a>
+            </p>
+            <p class="pub-meta">NAACL, 2025</p>
+          </li>
+          <li>
+            <p class="pub-title">
+              <a href="https://arxiv.org/abs/2411.08840">Multimodal Instruction Tuning with Hybrid State Space Models</a>
+            </p>
+            <p class="pub-meta">arXiv, 2024</p>
+          </li>
+          <li>
+            <p class="pub-title">
+              <a href="https://aclanthology.org/2021.emnlp-main.489/">A Scalable Framework for Learning From Implicit User Feedback to Improve Natural Language Understanding in Large-Scale Conversational AI Systems</a>
+            </p>
+            <p class="pub-meta">EMNLP, 2021</p>
+          </li>
+          <li>
+            <p class="pub-title">
+              <a href="https://vldb.org/pvldb/vol14/p2459-thirumuruganathan.pdf">Deep Learning for Blocking in Entity Matching: A Design Space Exploration</a>
+            </p>
+            <p class="pub-meta">PVLDB, 2021</p>
+          </li>
+          <li>
+            <p class="pub-title">
+              <a href="https://aclanthology.org/N19-1379/">Continuous Learning for Large-Scale Personalized Domain Classification</a>
+            </p>
+            <p class="pub-meta">NAACL, 2019</p>
+          </li>
+          <li>
+            <p class="pub-title">
+              <a href="https://dl.acm.org/doi/pdf/10.1145/3183713.3196926">Deep Learning for Entity Matching: A Design Space Exploration</a>
+            </p>
+            <p class="pub-meta">SIGMOD, 2018</p>
+          </li>
+        </ol>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>&copy; 2026 Han Li.</p>
+    </footer>
+  </body>
+</html>
